@@ -37,8 +37,8 @@ header{
 
 .principal{
     position: relative;
-    height: 1000px;
-    background-image: url(/Logos/SpaceXhd.jpg);
+    height: 100vh;
+    background-image: url(/Logos/Ferrari.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -71,11 +71,14 @@ ul{
     margin-bottom: -20px;
     color: white;
     text-transform: uppercase;
+    font-size: 25px;
 }
 .Titulo-g{
     color: white;
     text-transform: uppercase;
-    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 100px;
     cursor: pointer;
     transition: background-color 0.3s;
 
@@ -101,7 +104,7 @@ ul{
     cursor: pointer;
     transition: background-color 0.3s;
 }
-.Boton:hover{
+.Boton a:hover{
     color: black;
 }
 
@@ -109,8 +112,8 @@ ul{
     margin: 0;
     margin-top: -20px;
     position: relative;
-    height: 1000px;
-    background-image: url(/Logos/planet-earth-india-3840x2160-10758.jpg);
+    height: 100vh;
+    background-image: url(/Logos/Porsche.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -123,8 +126,8 @@ ul{
     margin: 0;
     margin-top: -20px;
     position: relative;
-    height: 1000px;
-    background-image: url(/Logos/SpaceX4k.jpg);
+    height: 100vh;
+    background-image: url(/Logos/Lamborghini.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -132,8 +135,8 @@ ul{
     margin: 0;
     margin-top: -20px;
     position: relative;
-    height: 1000px;
-    background-image: url(/Logos/Space4k2.jpg);
+    height: 100vh;
+    background-image: url(/Logos/RollsRoyce.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
