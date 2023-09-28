@@ -1,0 +1,150 @@
+.Menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 150px;
+}
+.Nav-menu-item{
+    padding: 15px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+nav{
+    background-color: transparent;
+    align-items: center;
+    margin-top: 0;
+}
+
+header{
+    align-items: center;
+    background-color: transparent;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.principal{
+    position: relative;
+    height: 1000px;
+    background-image: url(/Logos/SpaceXhd.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ul{
+    list-style: none;
+}
+.cuadritos{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.boton-menu{
+    width: 25px;
+    height: -69px;
+}
+.cuadrito{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: baseline;
+    width: 600px; /* Establece el ancho del contenedor */
+    height: 600px; /* Establece la altura del contenedor */
+    padding-left: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.principal:first-child {
+    margin-bottom: 0;
+}
+.Titulo-p{
+    margin-bottom: -20px;
+    color: white;
+    text-transform: uppercase;
+}
+.Titulo-g{
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+}
+.Borde{
+    border: 2px solid white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.Borde:hover {
+    background-color: #ffffff;
+  }
+.Boton{
+    text-transform: uppercase;
+    color: white;
+    background-color: transparent;
+    border-style: none;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.Boton:hover{
+    color: black;
+}
+
+.Secundaria{
+    margin: 0;
+    margin-top: -20px;
+    position: relative;
+    height: 1000px;
+    background-image: url(/Logos/planet-earth-india-3840x2160-10758.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Title{
+    margin-bottom: -20px;
+    color:rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+.Tercera{
+    margin: 0;
+    margin-top: -20px;
+    position: relative;
+    height: 1000px;
+    background-image: url(/Logos/SpaceX4k.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Cuarta{
+    margin: 0;
+    margin-top: -20px;
+    position: relative;
+    height: 1000px;
+    background-image: url(/Logos/Space4k2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.EstiloFo{
+    margin: 0;
+    margin-top: -20px;
+    position: relative;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: smaller;
+}
